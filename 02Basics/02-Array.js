@@ -13,19 +13,19 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 
 // console.log(all_new_heros);
 
-const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+const another_array = [21, 22, 3, [42, 52, 26], 27, [26, 72, [42, 52]]]
 
 const real_another_array = another_array.flat(Infinity)
 console.log(real_another_array);
 
 
 
-console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.isArray("Aashish"))
+console.log(Array.from("Bande"))
+console.log(Array.from({name: "Bande"})) // interesting
 
-let score1 = 100
-let score2 = 200
-let score3 = 300
+let score1 = 1002
+let score2 = 2002
+let score3 = 3002
 
 console.log(Array.of(score1, score2, score3));
